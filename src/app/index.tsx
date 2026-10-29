@@ -11,6 +11,8 @@ import {
 } from "react-native";
 import { SignupFormData, signupSchema } from "../schemas/signupSchema";
 
+// TODO: Add a "show password" toggle to the password fields
+// TODO: Improve the styling of the form
 export default function SignupScreen() {
   const {
     control,
