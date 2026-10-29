@@ -33,6 +33,11 @@ export default function SignupScreen() {
       lastName: data.lastName,
       email: data.email,
     });
+
+    router.push({
+      pathname: "/confirmation",
+      params: { firstName: data.firstName },
+    });
   };
 
   return (
